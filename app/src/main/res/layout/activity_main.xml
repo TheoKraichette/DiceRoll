@@ -1,28 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Hello World!"
-        android:id="@+id/result_text"
-        />
+        android:text="Skate Dice"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="wrap_content"
+        android:layout_width="99dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll_label" />
+        android:text="Flips " />
+
+    <Button
+        android:id="@+id/roll_button2"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Side " />
+
+    <Button
+        android:id="@+id/roll_button3"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Rotation" />
+
+    <Button
+        android:id="@+id/roll_button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Stance " />
+
+    <Button
+        android:id="@+id/roll_button5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#009688"
+        android:text=" Roll ! "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
 
 </LinearLayout>
