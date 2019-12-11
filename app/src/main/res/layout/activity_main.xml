@@ -13,45 +13,57 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Skate Dice"
-        android:textSize="30sp" />
+        android:text="Random Tricks"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark" />
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="99dp"
-        android:layout_height="wrap_content"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:text="Flips " />
+        android:text="Flips "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:id="@+id/roll_button2"
-        android:layout_width="99dp"
-        android:layout_height="wrap_content"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:text="Side " />
+        android:layout_margin="2dp"
+        android:text="Side"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:id="@+id/roll_button3"
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:text="Rotation" />
+        android:layout_margin="2dp"
+        android:text="Rotation"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:id="@+id/roll_button4"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:text="Stance " />
+        android:layout_margin="2dp"
+        android:text="Stance "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:id="@+id/roll_button5"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
-        android:background="#009688"
+        android:layout_margin="10dp"
+        android:background="#20332F"
         android:text=" Roll ! "
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EBE2D0D0"
+        android:textColorHighlight="#00E4D7D7" />
 
 
 </LinearLayout>
